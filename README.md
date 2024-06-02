@@ -39,7 +39,6 @@ tests the endponts
     http://127.0.0.1:5000/
     http://127.0.0.1:5000/predictdata
 
-
 METHOD 2 FOR RUNNING THE APPLICATION NOT LOCALLY VIA STREAMLIT
 Run the Application: Start the Streamlit application by executing the following command in your terminal:
 
