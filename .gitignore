@@ -122,7 +122,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.artifacts
+# .artifacts off so that to have also on github the artifacts for the streamlit deployment
 .env
 .venv
 env/

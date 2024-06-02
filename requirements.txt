@@ -1,3 +1,4 @@
+streamlit #only for streamlit project showcase
 pandas
 numpy
 seaborn
