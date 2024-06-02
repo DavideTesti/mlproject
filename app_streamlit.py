@@ -5,6 +5,7 @@ from src.pipeline.predict_pipeline import CustomData, PredictPipeline
 
 # Title of the application
 st.title("Student Performance Prediction")
+st.write("Scope: This project aims to predict a student's math score based on various input parameters such as gender, race/ethnicity, parental level of education, lunch type, test preparation course, reading score, and writing score. The model has been trained on a dataset of student performance and utilizes various machine learning algorithms to make predictions.")
 
 # Sidebar for user input
 st.sidebar.header("Input Parameters")
