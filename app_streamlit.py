@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from src.pipeline.predict_pipeline import CustomData, PredictPipeline
 
+
 # Title of the application
 st.title("Student Performance Prediction")
 
