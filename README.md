@@ -1,10 +1,11 @@
-**Step-by-Step Guide for Setting Up and Running the Project**
+***Step-by-Step Guide for Setting Up and Running the Project***
 
-Project Overview
-Project Title: Student Performance Prediction
-STREAMLIT LINK: https://mlproject-davidetestiscorepredict.streamlit.app/
+**Project Overview**
+**Project Title:** Student Performance Prediction
 
-Scope: This project aims to predict a student's math score based on various input parameters such as gender, race/ethnicity, parental level of education, lunch type, test preparation course, reading score, and writing score. The model has been trained on a dataset of student performance and utilizes various machine learning algorithms to make predictions.
+**STREAMLIT LINK:** https://mlproject-davidetestiscorepredict.streamlit.app/
+
+**Scope:** This project aims to predict a student's math score based on various input parameters such as gender, race/ethnicity, parental level of education, lunch type, test preparation course, reading score, and writing score. The model has been trained on a dataset of student performance and utilizes various machine learning algorithms to make predictions.
 
 
 Clone the Repository:
