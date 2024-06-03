@@ -34,7 +34,7 @@ If your project includes a web application or some other entry point, they can r
 
     python app.py
 
-tests the endponts 
+Tests the endpoints 
 
     http://127.0.0.1:5000/
     http://127.0.0.1:5000/predictdata
@@ -45,6 +45,21 @@ Run the Application: Start the Streamlit application by executing the following 
     streamlit run app_streamlit.py
 
 This command will start a local server, and Streamlit will provide a URL (usually http://localhost:8501) or (https://mlproject-davidetestiscorepredict.streamlit.app/) that you can open in your web browser to view and interact with the app.
+
+METHOD 3 FOR RUNNING THE APPLICATION NOT LOCALLY WITH DOCKER (WITHOUT STREAMLIT)
+
+Build the Docker Image (be sure to have docker engine on with Docker Desktop):
+
+    docker build -t student-performance-prediction .
+
+Run the Docker Container:
+
+    docker run -p 5000:5000 student-performance-prediction
+
+Tests the endpoints 
+
+    http://localhost:5000/
+    http://localhost:5000/predictdata
 
 
 
