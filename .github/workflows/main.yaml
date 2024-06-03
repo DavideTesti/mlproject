@@ -75,7 +75,7 @@ jobs:
 
   Continuous-Deployment:
     needs: build-and-push-ecr-image
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -107,6 +107,7 @@ jobs:
       - name: Clean previous images and containers
         run: |
           docker system prune -f
+
 
 
 
