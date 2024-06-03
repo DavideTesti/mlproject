@@ -50,9 +50,11 @@ METHOD 2 FOR RUNNING THE APPLICATION NOT LOCALLY VIA STREAMLIT
 
         streamlit run app_streamlit.py
 
-    This command will start a local server, and Streamlit will provide a URL (usually http://localhost:8501) or (https://mlproject-davidetestiscorepredict.streamlit.app/) that you can open in your web browser to view and interact with the app.
+    Tests the web app on streamlit:
+        
+        https://mlproject-davidetestiscorepredict.streamlit.app/
 
-METHOD 3 FOR RUNNING THE APPLICATION NOT LOCALLY WITH DOCKER (WITHOUT STREAMLIT)
+METHOD 3 FOR RUNNING THE APPLICATION LOCALLY WITH DOCKER (WITHOUT STREAMLIT)
 
     Build the Docker Image (be sure to have docker engine on with Docker Desktop):
 
