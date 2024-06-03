@@ -36,11 +36,11 @@
 
 METHOD 1 FOR RUNNING THE APPLICATION LOCALLY
 
-    Running the Application:
+    Run the Application:
 
         python app.py
 
-    Tests the endpoints 
+    Test the endpoints:
 
         http://127.0.0.1:5000/
         http://127.0.0.1:5000/predictdata
@@ -51,7 +51,7 @@ METHOD 2 FOR RUNNING THE APPLICATION NOT LOCALLY VIA STREAMLIT
 
         streamlit run app_streamlit.py
 
-    Tests the web app on streamlit:
+    Test the web app on streamlit:
         
         https://mlproject-davidetestiscorepredict.streamlit.app/
 
@@ -65,7 +65,7 @@ METHOD 3 FOR RUNNING THE APPLICATION LOCALLY WITH DOCKER (WITHOUT STREAMLIT)
 
         docker run -p 5000:5000 student-performance-prediction
 
-    Tests the endpoints 
+    Test the endpoints: 
 
         http://localhost:5000/
         http://localhost:5000/predictdata
