@@ -46,8 +46,8 @@ METHOD 1 FOR RUNNING THE APPLICATION LOCALLY
 
 METHOD 2 FOR RUNNING THE APPLICATION NOT LOCALLY VIA STREAMLIT
 
-    Run the Application: Start the Streamlit application by executing the following command in your terminal:
-
+    Run the Application: 
+    
         streamlit run app_streamlit.py
 
     Tests the web app on streamlit:
