@@ -39,7 +39,7 @@ jobs:
           sudo apt-get install -y jq unzip
 
       - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v2 # Updated to use Node.js 20
+        uses: aws-actions/configure-aws-credentials@v3 # Updated to v3
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
@@ -47,9 +47,9 @@ jobs:
 
       - name: Login to Amazon ECR
         id: login-ecr
-        uses: aws-actions/amazon-ecr-login@v1
+        uses: aws-actions/amazon-ecr-login@v2 # Updated to v2
         with:
-          mask-password: true
+          registry-type: public # Assuming the repository is public. Change to private if necessary.
 
       - name: Build, tag, and push image to Amazon ECR
         id: build-image
@@ -73,7 +73,7 @@ jobs:
         uses: actions/checkout@v4 # Updated to use Node.js 20
 
       - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v2 # Updated to use Node.js 20
+        uses: aws-actions/configure-aws-credentials@v3 # Updated to v3
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
@@ -81,9 +81,9 @@ jobs:
 
       - name: Login to Amazon ECR
         id: login-ecr
-        uses: aws-actions/amazon-ecr-login@v1
+        uses: aws-actions/amazon-ecr-login@v2 # Updated to v2
         with:
-          mask-password: true
+          registry-type: public # Assuming the repository is public. Change to private if necessary.
       
       - name: Pull latest images
         run: |
@@ -100,6 +100,7 @@ jobs:
       - name: Clean previous images and containers
         run: |
           docker system prune -f
+
 
 
 
