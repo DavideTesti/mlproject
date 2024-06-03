@@ -35,6 +35,7 @@
 **DEPLOYMENT METHODS**
 
 METHOD 1 FOR RUNNING THE APPLICATION LOCALLY
+
     Running the Application:
 
         python app.py
@@ -47,7 +48,7 @@ METHOD 1 FOR RUNNING THE APPLICATION LOCALLY
 METHOD 2 FOR RUNNING THE APPLICATION NOT LOCALLY VIA STREAMLIT
 
     Run the Application: 
-    
+
         streamlit run app_streamlit.py
 
     Tests the web app on streamlit:
