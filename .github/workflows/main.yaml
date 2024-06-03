@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # Updated to use Node.js 20
 
       - name: Lint code
         run: echo "Linting repository"
@@ -49,9 +49,7 @@ jobs:
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v1
         with:
-          registry-type: ecr
-          username: AWS
-          password: ${{ secrets.AWS_SECRET_ACCESS_KEY }} # Ensure password is masked
+          mask-password: true
 
       - name: Build, tag, and push image to Amazon ECR
         id: build-image
@@ -85,9 +83,7 @@ jobs:
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v1
         with:
-          registry-type: ecr
-          username: AWS
-          password: ${{ secrets.AWS_SECRET_ACCESS_KEY }} # Ensure password is masked
+          mask-password: true
       
       - name: Pull latest images
         run: |
@@ -104,6 +100,7 @@ jobs:
       - name: Clean previous images and containers
         run: |
           docker system prune -f
+
 
 
 
