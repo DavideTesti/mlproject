@@ -42,14 +42,23 @@ This project showcases my abilities in developing and deploying a Machine Learni
 
 **Technologies Used**
     - GitHub: For version control and collaboration.
+
     - Jupyter Notebooks: For Exploratory Data Analysis and Model Training.
+    
     - Python: For the files, models and app functioning
+    
     - HTML: For creating the web application's prediction endpoint.
+    
     - Streamlit: For hosting the web application.
+    
     - Docker: For containerizing the application.
+    
     - AWS ECR: For storing Docker images.
+    
     - AWS EC2: For deploying and running the web application.
+    
     - AWS IAM: For managing user permissions related to ECR and EC2.
+    
     - GitHub Actions: For setting up CI/CD pipelines.
 
 ----------------------------------------------
