@@ -1,6 +1,6 @@
-**STEP-BY-STEP GUIDE FOR SETTING UP AND VERIFYING THE FUNCTIONING OF THE PROJECT**
+                   **STEP-BY-STEP GUIDE FOR SETTING UP AND VERIFYING THE FUNCTIONING OF THE PROJECT**
 
-**Project Title:** Student Performance Prediction
+                                  **Project Title:** Student Performance Prediction
 
 **STREAMLIT LINK (TO SEE THE ML WEB APP DEPLOYED):**
  https://mlproject-davidetestiscorepredict.streamlit.app/
