@@ -19,7 +19,7 @@ This project showcases my abilities in developing and deploying a Machine Learni
 
 **Scope:** This project aims to predict a student's math score based on various input parameters such as gender, race/ethnicity, parental level of education, lunch type, test preparation course, reading score, and writing score. The model has been trained on a dataset of student performance and utilizes various machine learning algorithms to make predictions.
 
-**Candidate's ability showcased in this project**
+**Candidate's abilities showcased in this project**
     Collaborative Development with GitHub:
         - Demonstrated the use of GitHub for collaborating with team members, ensuring synchronization and efficient version control.
 
