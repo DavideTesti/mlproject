@@ -11,7 +11,45 @@
 **CANVA LINK (TO SEE A PICTURE PRESENTATION OF THE ML WEB APP DEPLOYED WITH AWS ECR, EC2, WITH CI/CD WORKFLOWS):**
  https://www.canva.com/design/DAGHMrbyF6g/q4YL8JIChFYvcdET8LXdZw/edit?utm_content=DAGHMrbyF6g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-**SCOPE:** This project aims to predict a student's math score based on various input parameters such as gender, race/ethnicity, parental level of education, lunch type, test preparation course, reading score, and writing score. The model has been trained on a dataset of student performance and utilizes various machine learning algorithms to make predictions.
+----------------------------------------------
+
+**Project Overview**
+This project showcases my abilities in developing and deploying a Machine Learning application using various technologies and best practices in a collaborative environment. Below is a summary of the project's scope and the technologies used:
+
+**Scope:** This project aims to predict a student's math score based on various input parameters such as gender, race/ethnicity, parental level of education, lunch type, test preparation course, reading score, and writing score. The model has been trained on a dataset of student performance and utilizes various machine learning algorithms to make predictions.
+
+**Candidate's ability showcased in this project**
+Collaborative Development with GitHub:
+    - Demonstrated the use of GitHub for collaborating with team members, ensuring synchronization and efficient version control.
+Isolated Development Environment:
+    - Set up a separate environment for developing the project to maintain isolation and manage dependencies effectively.
+Organized Folder Structure:
+    - Implemented a proper folder structure for developing and deploying a Machine Learning application, ensuring clarity and ease of navigation.
+Exploratory Data Analysis and Model Training:
+    - Utilized Jupyter Notebooks to perform Exploratory Statistical Analysis and Model Training, showcasing data visualization and model evaluation techniques.
+Data Handling and Model Training Pipeline:
+    - Developed pipelines for data ingestion, data transformation, and model training, including hyperparameter tuning for optimizing model performance.
+Web Application Development:
+    - Created a web application with a basic HTML script to serve as the prediction endpoint, providing an interface for user interaction.
+Streamlit Deployment:
+    - Demonstrated how to host the web application on Streamlit, making the app accessible through a web browser.
+Containerization with Docker:
+    - Used Docker to containerize the application locally, ensuring consistency across different environments.
+CI/CD with Docker, AWS ECR, and AWS EC2:
+    - Implemented Continuous Integration and Continuous Deployment (CI/CD) using Docker, AWS Elastic Container Registry (ECR), and AWS Elastic Compute Cloud (EC2) via GitHub Actions.
+    - Managed user permissions with AWS Identity and Access Management (IAM) specifically for ECR and EC2.
+
+**Technologies Used**
+GitHub: For version control and collaboration.
+Jupyter Notebooks: For Exploratory Data Analysis and Model Training.
+Python: For the files, models and app functioning
+HTML: For creating the web application's prediction endpoint.
+Streamlit: For hosting the web application.
+Docker: For containerizing the application.
+AWS ECR: For storing Docker images.
+AWS EC2: For deploying and running the web application.
+AWS IAM: For managing user permissions related to ECR and EC2.
+GitHub Actions: For setting up CI/CD pipelines.
 
 ----------------------------------------------
 
