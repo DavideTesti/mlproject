@@ -4,7 +4,9 @@
 
 **STREAMLIT LINK (TO SEE THE ML WEB APP DEPLOYED):**
  https://mlproject-davidetestiscorepredict.streamlit.app/
-**CANVA LINK (TO SEE THE ML WEB APP DEPLOYED WITH AWS ECR, EC2, WITH CI/CD WORKFLOWS):**
+**AWS LINK (TO SEE THE ML WEB APP DEPLOYED WITH AWS ECR, EC2, WITH CI/CD WORKFLOWS):**
+ http://16.170.215.133:8080/predictdata
+**CANVA LINK (TO SEE A PICTURE PRESENTATION OF THE ML WEB APP DEPLOYED WITH AWS ECR, EC2, WITH CI/CD WORKFLOWS):**
  https://www.canva.com/design/DAGHMrbyF6g/q4YL8JIChFYvcdET8LXdZw/edit?utm_content=DAGHMrbyF6g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 **Scope:** This project aims to predict a student's math score based on various input parameters such as gender, race/ethnicity, parental level of education, lunch type, test preparation course, reading score, and writing score. The model has been trained on a dataset of student performance and utilizes various machine learning algorithms to make predictions.
@@ -80,7 +82,7 @@ METHOD 4 FOR RUNNING THE APPLICATION WITH DOCKER (WITH AWS ECR, EC2, CI/CD WORKF
     
         https://www.canva.com/design/DAGHMrbyF6g/q4YL8JIChFYvcdET8LXdZw/edit?utm_content=DAGHMrbyF6g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-        
+
 ----------------------------------------------
 
 **FOLDER STRCUTRE DETAILED**
