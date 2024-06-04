@@ -6,6 +6,7 @@
  https://mlproject-davidetestiscorepredict.streamlit.app/
 
 **AWS LINK (TO SEE THE ML WEB APP DEPLOYED WITH AWS ECR, EC2, WITH CI/CD WORKFLOWS):**
+(please consider the AWS could be down due to servicing costs)
  http://16.170.215.133:8080/predictdata
 
 **CANVA LINK (TO SEE A PICTURE PRESENTATION OF THE ML WEB APP DEPLOYED WITH AWS ECR, EC2, WITH CI/CD WORKFLOWS):**
