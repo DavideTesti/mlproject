@@ -73,6 +73,14 @@ METHOD 3 FOR RUNNING THE APPLICATION LOCALLY WITH DOCKER (WITHOUT STREAMLIT)
         http://localhost:5000/
         http://localhost:5000/predictdata
 
+
+METHOD 4 FOR RUNNING THE APPLICATION WITH DOCKER (WITH AWS ECR, EC2, CI/CD WORKFLOWS)
+
+    Here the documents steps in a picture slideshow on canva:
+    
+        https://www.canva.com/design/DAGHMrbyF6g/q4YL8JIChFYvcdET8LXdZw/edit?utm_content=DAGHMrbyF6g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+        
 ----------------------------------------------
 
 **FOLDER STRCUTRE DETAILED**
