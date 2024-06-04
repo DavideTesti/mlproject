@@ -3,6 +3,7 @@
 **Project Title:** Student Performance Prediction
 
 **STREAMLIT LINK (TO SEE THE ML WEB APP DEPLOYED):** https://mlproject-davidetestiscorepredict.streamlit.app/
+**CANVA LINK (TO SEE THE ML WEB APP DEPLOYED WITH AWS):** https://www.canva.com/design/DAGHMrbyF6g/q4YL8JIChFYvcdET8LXdZw/edit?utm_content=DAGHMrbyF6g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 **Scope:** This project aims to predict a student's math score based on various input parameters such as gender, race/ethnicity, parental level of education, lunch type, test preparation course, reading score, and writing score. The model has been trained on a dataset of student performance and utilizes various machine learning algorithms to make predictions.
 
