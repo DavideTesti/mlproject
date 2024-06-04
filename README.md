@@ -1,15 +1,17 @@
 **STEP-BY-STEP GUIDE FOR SETTING UP AND VERIFYING THE FUNCTIONING OF THE PROJECT**
 
-**Project Title:** Student Performance Prediction
+**PROJECT TITLE:** Student Performance Prediction
 
 **STREAMLIT LINK (TO SEE THE ML WEB APP DEPLOYED):**
  https://mlproject-davidetestiscorepredict.streamlit.app/
+
 **AWS LINK (TO SEE THE ML WEB APP DEPLOYED WITH AWS ECR, EC2, WITH CI/CD WORKFLOWS):**
  http://16.170.215.133:8080/predictdata
+
 **CANVA LINK (TO SEE A PICTURE PRESENTATION OF THE ML WEB APP DEPLOYED WITH AWS ECR, EC2, WITH CI/CD WORKFLOWS):**
  https://www.canva.com/design/DAGHMrbyF6g/q4YL8JIChFYvcdET8LXdZw/edit?utm_content=DAGHMrbyF6g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-**Scope:** This project aims to predict a student's math score based on various input parameters such as gender, race/ethnicity, parental level of education, lunch type, test preparation course, reading score, and writing score. The model has been trained on a dataset of student performance and utilizes various machine learning algorithms to make predictions.
+**SCOPE:** This project aims to predict a student's math score based on various input parameters such as gender, race/ethnicity, parental level of education, lunch type, test preparation course, reading score, and writing score. The model has been trained on a dataset of student performance and utilizes various machine learning algorithms to make predictions.
 
 ----------------------------------------------
 
