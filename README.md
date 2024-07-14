@@ -195,4 +195,25 @@ METHOD 4 FOR RUNNING THE APPLICATION WITH DOCKER (WITH AWS ECR, EC2, CI/CD WORKF
     |   |-- home.html                    # Template for the prediction input form.
     |   |-- index.html                   # Template for the homepage.
 
+----------------------------------------------
 
+**ETL Pipeline Structure**
+1. Extraction: data_ingestion.py
+ - Purpose: This script is responsible for extracting data from various sources and loading it into the project for further processing.
+ - Key Functions:
+ - Reading raw data from source files (like CSV).
+ - Splitting data into training and test sets.
+Saving the split datasets into specified directories (artifacts/).
+2. Transformation: data_transformation.py
+ - Purpose: This script handles the transformation of raw data into a format suitable for machine learning model training.
+ - Key Functions:
+ - Data cleaning (handling missing values, encoding categorical variables, scaling numerical features).
+ - Feature engineering (creating new features from existing ones if necessary).
+ - Saving the transformation pipeline (preprocessor) as a serialized object (preprocessor.pkl).
+3. Loading: model_trainer.py
+ - Purpose: This script trains the machine learning model using the transformed data and saves the trained model for later use.
+ - Key Functions:
+ - Loading transformed training data.
+ - Training the machine learning model.
+ - Evaluating the model on validation or test data.
+ - Saving the trained model as a serialized object (model.pkl).
