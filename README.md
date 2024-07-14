@@ -76,7 +76,7 @@ This project showcases my abilities in developing and deploying a Machine Learni
     Clone the Repository:
 
         git clone https://github.com/your-username/mlproject.git
-        cd mlproject/mlproject
+        cd mlproject
 
 
     Set Up a Virtual Environment (Optional but recommended):
