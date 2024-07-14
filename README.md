@@ -73,7 +73,11 @@ This project showcases my abilities in developing and deploying a Machine Learni
 
 **CLONING AND SETUP STEPS**
 
-    Clone the Repository:
+    Create a mlproject folder into your Downloads
+    Open Visual Studio Code (VSC).
+    Open the project folder in C:\Users\User\Downloads\mlproject
+
+    Open a cmd terminal and clone the Repository:
 
         git clone https://github.com/your-username/mlproject.git
         cd mlproject
